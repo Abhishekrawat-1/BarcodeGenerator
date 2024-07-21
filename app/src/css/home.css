@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.DataForm_container{
+width: 100%;
+height: 100vh;
+}
+.form_data{
+    width:95%;
+    margin: 1rem auto;
+}
+.heading h1{
+    font-size: 1.5rem;
+}
+.form_data form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 0.5rem; */
+}
+
+.form_data form  .input_container{
+   width: 95%;
+   /* padding: 0.5rem; */
+   text-align: left;
+}
+
+.form_data form  .input_container label{
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+.form_data form  .input_container input{
+    width: 80%;
+    padding: 0.5rem;
+}
+
+.form_data form  .input_container select{
+    width: 80%;
+    padding: 0.5rem;
+}
+
+.form_data form  .input_container select option{
+font-weight: 300;
+}
+
+.button_container button{
+    text-align: center;
+    width: 30%;
+    padding: 0.6rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: rgb(59, 130, 59);
+    color: white;
+    
+}
+
+.button_container button:hover{
+
+    background-color: rgb(89, 182, 89);
+    color: white;
+    opacity: 0.8;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgb(214, 219, 214);
+}

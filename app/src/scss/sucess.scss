@@ -1,0 +1,52 @@
+@import "../scss/notifymixin.scss";
+
+.sucessBoxbg{
+
+    @include notifybgmixin();
+
+    .sucess_container{
+
+        @include notifycontentmixin(35%, auto, white);
+        color: black;
+
+        .close_icon {
+            float: right;
+            font-size: 1.6rem;
+            cursor: pointer;
+        }
+
+       
+       
+        img{
+            width: 12%;
+            height: 3rem;
+            margin : 0 auto;
+            display: block;
+        }
+        h1{
+            display: block;
+            text-align: center;
+            font-size: 1rem;
+            color:#00356B;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        p{
+            text-align: center;
+            padding: 0.8rem;
+            font-size: 0.8rem;
+            color: rgb(56, 56, 56);
+        }
+
+        h3{
+            text-align: center;
+            font-size: 0.5rem;
+            color: rgb(56, 56, 56);
+            span{
+                color: #8c1aef;
+            }
+        }
+
+    }
+
+}

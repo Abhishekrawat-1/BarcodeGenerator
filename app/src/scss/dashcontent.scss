@@ -1,0 +1,78 @@
+.das_content {
+
+    .das_wlcm{
+        width: 95%;
+        padding: 10px;
+        margin: 10px;
+        height: max-content;
+        background-color: white;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 28px 0px;
+
+        img{
+            width: 30%;
+            height: 10rem;
+        }
+
+        .das_wlcm_text{
+            display: inline-block;
+            width: 60%;
+            text-align: start;
+            vertical-align: top;
+            padding-top: 1.9rem;
+        }
+
+        h1,h3,p  {
+            font: {
+                family: Inter, sans-serif;
+                size: 1rem;
+                line-height: 1rem;
+            }
+
+        }
+
+        h3{
+            color: #2179c6;
+            font-size: 1.5rem;
+        }
+
+        p{
+            font-size: 1rem;
+            padding-top:5px;
+        }
+
+    }
+.das_about{
+    width: 98%;
+    margin:1rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.das_about_h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #212b36;
+    text-align: center;
+
+}
+p{
+    font-size: 1rem;
+    padding-top:5px;
+    text-align: start;
+}
+
+h3{
+    color: #2179c6;
+    font-size: 1.1rem;
+    text-align: start;
+}
+
+h2{
+    color: #212b36;
+    font-size: 1.1rem;
+    text-align: start;
+}
+
+}

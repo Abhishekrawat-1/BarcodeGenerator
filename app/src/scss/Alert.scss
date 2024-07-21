@@ -1,0 +1,40 @@
+@import "../scss/notifymixin.scss";
+
+.alertBoxbg {
+    @include notifybgmixin();
+    .alert_container {
+        @include notifycontentmixin(35%, auto, #dc3545);
+
+        .close_icon {
+            float: right;
+            font-size: 1.6rem;
+            cursor: pointer;
+        }
+        h1{
+            display: block;
+            text-align: center;
+            font-size: 1rem;
+            color:white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        p{
+            text-align: center;
+            padding: 0.8rem;
+            font-size: 0.8rem;
+            color: white;
+        }
+
+        h3{
+            text-align: center;
+            font-size: 0.5rem;
+            color: white;
+            span{
+                color: white;
+            }
+        }
+      }
+  }
+  
+  
+  

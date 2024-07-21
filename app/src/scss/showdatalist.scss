@@ -1,0 +1,27 @@
+$bgcolor: #f1f5f9;
+$inputs_border:637381;
+
+
+.pagination-adminBar{
+    margin: 0 auto;
+}
+
+.showdataList_container{
+
+    .nav_search{
+        width: 100%;    
+        margin: 0 auto;
+        input{
+            width: 50%;
+            height: 2.2rem;
+            border-radius: 10px;
+            // margin: 19px 0 0 0;
+            padding: 5px;
+            outline: none;
+            font-size: 1rem;
+            vertical-align: top;
+            border: $inputs_border;
+        }
+    }
+
+}

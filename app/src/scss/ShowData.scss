@@ -1,0 +1,23 @@
+.showdata{
+    width: 95%;
+    margin: 1rem auto;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 28px 0px;
+    cursor: pointer;
+    h1{
+        font-size: 1rem;
+
+    }
+    ul{
+        margin-top: 0.5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        list-style: none;
+        li{
+            font-size: 1rem;
+            text-align: start;
+        }
+    }
+}

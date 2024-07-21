@@ -1,0 +1,29 @@
+{
+  "name": "amba-shakti",
+  "version": "0.0.1",
+  "main": "backend/main.js",
+  "productName": "amba shakti app",
+  "scripts": {
+    "start": "npm start --prefix react-app",
+    "electron": "electron .",
+    "package-win": "npm run package-win32 && npm run package-win64",
+    "package-win32": "electron-packager . Amba-Shakti --overwrite --asar --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Amba Shakti\"",
+    "package-win64": "electron-packager . Amba-Shakti --overwrite --asar --platform=win32 --arch=x64 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Amba Shakti\"",
+    "postinstall": "electron-rebuild",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rwtron",
+  "license": "ISC",
+  "description": "barcode generator by rwtron",
+  "devDependencies": {
+    "electron": "^30.0.8",
+    "electron-builder": "^24.13.3",
+    "electron-is-dev": "^3.0.1",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "sqlite3": "^5.1.7",
+    "xlsx": "^0.18.5"
+  }
+}
